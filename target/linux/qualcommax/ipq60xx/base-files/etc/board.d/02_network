@@ -43,6 +43,7 @@ ipq60xx_setup_interfaces()
 	sy,y6010|\
 	xiaomi,ax1800|\
 	zn,m2|\
+	hxzn,6000n|\
 	qihoo,360v6)
 		ucidef_set_interfaces_lan_wan "lan1 lan2 lan3" "wan"
 		;;
