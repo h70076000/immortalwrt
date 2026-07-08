@@ -417,6 +417,16 @@ define Device/zn_m2
 endef
 TARGET_DEVICES += zn_m2
 
+define Device/hxzn_6000n
+	$(call Device/nand-common)
+	DEVICE_VENDOR := HXZN
+	DEVICE_MODEL := 6000N
+	SOC := ipq6000
+	DEVICE_DTS_CONFIG := config@cp03-c1
+	DEVICE_PACKAGES := ipq-wifi-zn_m2
+endef
+TARGET_DEVICES += hxzn_6000n
+
 define Device/philips_ly1800
 	$(call Device/emmc-common)
 	DEVICE_VENDOR := Philips
