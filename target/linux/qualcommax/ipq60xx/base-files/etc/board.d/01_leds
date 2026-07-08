@@ -13,6 +13,7 @@ xiaomi,ax1800)
 	ucidef_set_led_netdev "wan" "WAN" "blue:network" "wan"
 	;;
 cmiot,ax18|\
+hxzn,6000n|\
 zn,m2)
 	ucidef_set_led_netdev "wan" "WAN" "blue:wan" "wan"
 	ucidef_set_led_netdev "wlan2g" "WLAN2G" "blue:wlan-2ghz" "phy1-ap0"
